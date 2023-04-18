@@ -1,7 +1,7 @@
 <script>
 	import Header from '../../components/Header.svelte';
 	import Circles from '../../components/CirclesBottom.svelte';
-
+	import { fade } from 'svelte/transition';
 	import Icon from '@iconify/svelte';
 
 	import Layout from '../+layout.svelte';

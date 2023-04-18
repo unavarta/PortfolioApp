@@ -2,7 +2,7 @@
 	import Header from '../../components/Header.svelte';
 	import Circles from '../../components/CirclesBottom.svelte';
 	import Profile from '../../assets/yo.jpeg';
-
+	import Background from '../../assets/blurry-gradient-haikei.svg';
 	import Layout from '../+layout.svelte';
 	import router from '../+layout.svelte';
 </script>
@@ -98,4 +98,5 @@
 	.fade-exit-active {
 		opacity: 0;
 	}
+	
 </style>
