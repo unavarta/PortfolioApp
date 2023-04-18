@@ -1,0 +1,83 @@
+<script>
+    import Header from "../components/Header.svelte";
+    import Circles from "../components/CirclesBottom.svelte";
+
+    import Layout from './+layout.svelte';
+    import router from './+layout.svelte';
+</script>
+<Layout {router}>
+<main>
+    
+    
+    <Header />
+    <div class="body">
+        <p class="name">Uriel Navarta.</p>
+        <p class="under-text">Frontend Developer based in Mendoza, Argentina obsessed with making stunning web pages.</p>
+        
+    </div>
+    <div class="circles">
+        <Circles />
+     </div>
+    
+
+    
+</main>
+</Layout>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+    .name{
+        
+        margin-top: 150px;
+        margin-left: 50px;
+        font-size: 125px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        max-width: 500px;
+        line-height: 1em;
+        color: #2f2f2f;
+    }
+    .body{
+        margin-left: 50px;
+    }
+    .name:hover{
+        transition: all 0.3s ease;
+        transform: scale(1.2);
+        color: #FF748D;
+    }
+
+    
+    .under-text{
+            max-width: 550px;
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 20px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            color: #2f2f2f;
+            margin-left: 55px;
+    }
+    .circles{
+        max-height: 50px;
+        margin-left: 50px;
+    }
+    /* Define the `fade` transition */
+.fade {
+  transition: opacity 0.5s ease;
+}
+
+/* Define the starting and ending states of the `fade` transition */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+}
+</style>
