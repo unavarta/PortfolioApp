@@ -99,4 +99,69 @@
 		opacity: 0;
 	}
 	
+	*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			
+		}
+		.body{
+			margin: 0 auto;
+			padding: 150px 0 0 0;
+			display: block;
+			max-width: 900px;
+		}
+
+		main{
+			background-image: url('./../assets/blurry-gradient-haikei.svg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			min-width: 800px;
+			min-height: 1800px;
+			margin: 0 auto;
+			display: block;
+		}
+		.body{
+			display: flex;
+			flex-direction: column;
+			margin: 0 auto;
+			padding-top: 80px;
+			max-width: 800px;
+			
+		}
+		.text {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+			font-size: 50px;			
+		
+	}
+	.text p {
+		font-size: 40px;
+		font-family: 'Inter', sans-serif;
+		font-weight: 700;
+		max-width: 700px;
+		line-height: 1em;
+		color: #2f2f2f;
+	}
+		.image{
+			display: flex;
+			min-width: 800px;
+			margin: 0;
+			padding: 0;
+			padding-top: 70px;
+			max-width: 900px;
+			max-width: 500px;
+		
+		}
+		.image img{
+			width: 600px;
+		}
+		.circles {
+			margin-left: 0;
+		}
+		
 </style>

@@ -13,4 +13,18 @@
 		position: fixed;
 		bottom: 60px;
 	}
+
+	@media screen and (max-width: 600px) {
+		img {
+			
+			bottom: 20px;
+		}
+		main{
+			min-width: 600px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 auto;
+		}
+	}
 </style>

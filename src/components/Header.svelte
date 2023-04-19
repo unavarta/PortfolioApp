@@ -77,4 +77,26 @@
 	.git {
 		margin-top: 2px;
 	}
+
+	@media screen and (max-width: 600px){
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		a{
+			font-size: 40px;
+		}
+
+		.container{
+			flex-direction: column;
+			margin-left: 0;
+			margin-right: 0;
+			min-width: 700px;
+			padding-top: 50px;
+		}
+
+
+	} 
 </style>

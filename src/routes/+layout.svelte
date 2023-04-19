@@ -24,4 +24,13 @@
 		background-size: cover;
 	
 	}
+
+	@media screen and (max-width: 700px) {
+		main {
+			min-width: 800px;
+			min-height: 1800px;
+			margin: 0 auto;
+			
+		}
+	}
 </style>

@@ -1,7 +1,6 @@
 <script>
 	import Header from '../components/Header.svelte';
 	import Circles from '../components/CirclesBottom.svelte';
-
 	import Layout from './+layout.svelte';
 	import router from './+layout.svelte';
 </script>
@@ -86,4 +85,56 @@
 	.fade-exit-active {
 		opacity: 0;
 	}
+
+	@media screen and (max-width: 700px){
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			
+		}
+		.body{
+			margin: 0 auto;
+			padding: 150px 0 0 0;
+			display: block;
+		}
+
+		main{
+			background-image: url('./../assets/blurry-gradient-haikei.svg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			min-width: 800px;
+			min-height: 1800px;
+			margin: 0 auto;
+			display: block;
+		}
+		.name{
+			margin: 0 auto;
+			padding: 0;
+			
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+
+		}
+		.body {
+				margin-left: 0;
+				max-width: 900px;
+		}
+
+		.under-text {
+			margin-left: 0;
+			font-size: 40px;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			max-width: 900px;
+		}
+		.circles {
+			margin-left: 0;
+		}
+		
+		}
 </style>

@@ -178,4 +178,44 @@
 	.fade-exit-active {
 		opacity: 0;
 	}
+
+	@media screen and (max-width: 700px){
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			
+		}
+		.body{
+			margin: 0 auto;
+			padding: 150px 0 0 0;
+			display: block;
+		}
+
+		main{
+			background-image: url('./../assets/blurry-gradient-haikei.svg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			min-width: 800px;
+			min-height: 1800px;
+			margin: 0 auto;
+			display: block;
+		}
+		.grid-container{
+			display: block;
+			margin: 0 auto;
+			padding: 0;
+			max-width: 900px;
+		}
+		
+		.body {
+				margin-left: 0;
+				max-width: 900px;
+		}
+
+		.circles {
+			margin-left: 0;
+		}
+		
+		}
 </style>
