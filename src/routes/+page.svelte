@@ -7,10 +7,10 @@
 
 <svelte:head>
 	<title>Uriel Navarta</title>
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="manifest" href="/site.webmanifest" />
 </svelte:head>
 
 <Layout {router}>
@@ -86,20 +86,19 @@
 		opacity: 0;
 	}
 
-	@media screen and (max-width: 700px){
-		*{
+	@media screen and (max-width: 700px) {
+		* {
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
-			
 		}
-		.body{
+		.body {
 			margin: 0 auto;
 			padding: 150px 0 0 0;
 			display: block;
 		}
 
-		main{
+		main {
 			background-image: url('./../assets/blurry-gradient-haikei.svg');
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -108,19 +107,18 @@
 			margin: 0 auto;
 			display: block;
 		}
-		.name{
+		.name {
 			margin: 0 auto;
 			padding: 0;
-			
+
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			text-align: center;
-
 		}
 		.body {
-				margin-left: 0;
-				max-width: 900px;
+			margin-left: 0;
+			max-width: 900px;
 		}
 
 		.under-text {
@@ -135,6 +133,5 @@
 		.circles {
 			margin-left: 0;
 		}
-		
-		}
+	}
 </style>

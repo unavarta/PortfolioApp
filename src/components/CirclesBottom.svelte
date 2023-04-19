@@ -16,10 +16,9 @@
 
 	@media screen and (max-width: 600px) {
 		img {
-			
 			bottom: 20px;
 		}
-		main{
+		main {
 			min-width: 600px;
 			display: flex;
 			justify-content: center;
